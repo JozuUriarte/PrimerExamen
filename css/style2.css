@@ -1,0 +1,18 @@
+h2{
+    text-align: center;
+}
+.demod{
+    display: grid;
+    grid-template-columns:  3fr 3fr;
+}
+button{
+    height: 50px;
+    width: 100px;
+    margin-left: 40%;
+}
+.modal-body img{
+    margin-left: 30%;
+}
+.modal-footer button{
+    width: 100%;
+}

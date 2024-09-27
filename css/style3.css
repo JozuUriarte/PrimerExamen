@@ -1,0 +1,69 @@
+nav{
+    width: 100%;
+    height: 60px;
+    
+    background-color: blue;
+}
+nav ul{
+    list-style: none;
+
+}
+nav a {
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+  }
+nav img{
+    width: 50px;
+    height: 50px;
+
+}
+nav img:hover{
+    font-size: 24px;
+}
+.infs img{
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+}
+.cards .card{
+    background-color: rgb(206, 206, 206);
+    margin: 10px;
+    height: 500px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+}
+.information{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.information .izquierda{
+    background-color: brown;
+    margin: 10px;
+    height: 200px;
+}
+.information .izquierda img{
+    width: 100%;
+    height: 200px;
+}
+ .dere .dereuno{
+    background-color: chartreuse;
+    margin: 10px;
+    height: 95px;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: blueviolet;
+}
